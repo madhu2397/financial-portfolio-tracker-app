@@ -1,0 +1,56 @@
+h1,h2{
+    font-family:   Helvetica;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+.MyStocksTable{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    width: 90vw;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 0.5rem;
+}
+.table_res{
+ overflow-x:auto;
+}
+.heading_row{
+    background-color: rgb(192, 117, 117);
+    text-align: center;
+    color: white;
+}
+tr:nth-of-type(even){
+    background-color: #dddddd;
+  }
+
+  .StopTrackingBtn{
+      margin-left: 50px;
+      background-color: rgb(0, 255, 76);
+      color: rgb(146, 128, 128);
+      border-radius: 10px;
+      height: 35px;
+      width: 200px;
+      cursor: pointer;
+      
+  }
+
+  @media only screen and (max-width: 480px){
+    
+    h1,h2{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+         h1{
+            font-size: 34px;
+            margin-left: 2rem;
+        }
+   }
+
+   
